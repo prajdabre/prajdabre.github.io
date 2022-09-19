@@ -243,12 +243,18 @@ blockquote {
   }
 }
 
+@media (max-width: 1024px) {
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1.2rem;
+  }
+}
+
 // Social (bottom)
 
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -325,11 +331,11 @@ footer.sticky-bottom {
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-  h1 {
+  // padding-top: 1rem;
+  padding-bottom: 1rem;
+  h3 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 
@@ -345,7 +351,7 @@ footer.sticky-bottom {
     p, li {
       list-style: none;
       display: inline-block;
-      padding: 1rem 0.5rem;
+      padding: 0.5rem 0.5rem;
       color: var(--global-text-color-light);
     }
   }
@@ -403,9 +409,15 @@ footer.sticky-bottom {
 // Distill
 
 .distill {
+  nav li{
+      margin-bottom: 0.8rem;
+  }
   a:hover {
     border-bottom-color: var(--global-theme-color);
     text-decoration: none;
+  }
+  d-article li {
+    margin-bottom: 0.5em;
   }
 }
 
@@ -588,6 +600,10 @@ footer.sticky-bottom {
       }
     }
   }
+}
+
+span.star {
+  color: var(--global-theme-color);
 }
 
 // Rouge Color Customization

@@ -2,24 +2,27 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <span class="font-weight-bold">AI Resident</span> @ <a href="https://ai4bharat.org/" target="_blank">AI4Bharat (IIT Madras)</a> • <span class="font-weight-bold">Previously:</span> <a href="https://ucsd.edu/" target="_blank">UCSD</a> / <a href="https://www.tcs.com/" target="_blank">TCS</a> / <a href="https://stratzy.in/" target="_blank">Stratzy</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey, thanks for stopping by! 👋
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am an AI Resident at [AI4Bharat (IIT Madras)](https://ai4bharat.org/) under the supervision of [Prof. Mitesh Khapra](http://www.cse.iitm.ac.in/~miteshk/) and [Prof. Anoop Kunchukuttan](http://anoopk.in/), working on building open-source datasets and models for Indian languages. I am broadly interested in the areas of multimodal and multilingual learning specifically in context of data-efficient learning, robustness and generalization.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am also collaborating with [Dr. Zeerak Talat](https://scholar.google.com/citations?hl=en&user=3M3WdvkAAAAJ&view_op=list_works&sortby=pubdate) from [Simon Fraser University](https://digitaldemocracies.org/) on hate speech detection using federated learning. Prior to that I was a research intern at [University of California San Diego](https://ucsd.edu/) under the supervision of [Prof. Pengtao Xie](https://sites.google.com/site/pengtaoxie2008), where I worked on neural architecture search and generative models.
+
+I completed my Bachelor’s degree in Computer Engineering from [University of Mumbai](https://www.djsce.ac.in/), India. In the past, I was a machine learning intern at [Tata Consultancy Services](https://www.tcs.com/), where I worked on understanding customer behavior using natural language processing. Before that, I also collaborated with Prof. Pratik Kanani on an industry project focusing on anomaly detection in heart rate (pulse) using IoT and machine learning.
+
+I serve as a mentor at [DJ Unicode](https://www.djunicode.in/), a student organization that aims to aspire sophomores and juniors to contribute to open-source projects. I also led a team that developed a platform for conducting C programming examination in the college for over 500 students ([demo](https://www.youtube.com/watch?v=kn7lwJoYfuU)).
+
+I also co-founded the research division of Unicode (a.k.a. [Unicode Research](https://unicode-research.netlify.app/people/)) jointly with [Swapneel Mehta](https://swapneelm.github.io/) from [NYU CSMaP group](https://csmapnyu.org/), where we were fortunate to be joined by [Dr. Akash Srivastava](https://akashgit.github.io/) from [MIT-IBM AI Lab](https://mitibmwatsonailab.mit.edu/) for foundational lectures on deep generative models and probabilistic machine learning. I was a teaching Assistant for the [Unicode Machine Learning Summer Course 2021](https://djunicode.github.io/umlsc-2021/) supported by **Google Research India**. We are currently working on estimating the causal effect of non-expert mentorship on student career outcomes and social network analysis using probabilistic machine learning to understand opinion polarization and spread of disinformation in online communities.

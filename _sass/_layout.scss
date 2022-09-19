@@ -10,6 +10,15 @@ body {
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
   }
+
+  @media (max-width: 1024px){
+    p {
+      font-size: 1.2rem;
+    }
+    .note em {
+      font-size: 1.2rem;
+    }
+  }
 }
 
 body.fixed-top-nav {
@@ -24,6 +33,10 @@ body.sticky-bottom-footer {
 
 .container {
   max-width: $max-content-width;
+}
+
+.news h2 {
+  color: var(--global-theme-color);
 }
 
 // Profile

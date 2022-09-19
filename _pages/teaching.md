@@ -2,11 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: ''
 nav: true
-nav_order: 5
+nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### Unicode Research
 
-Organize your courses by years, topics, or universities, however you like!
+- **Summer 2021**. Teaching assistant for Introductory Course on Machine Learning ([Website](https://djunicode.github.io/umlsc-2021/))
+  <br> **Supported by Google AI Research India**
+- **March 2020**. Co-organizer for a workshop on Introduction to Web Development

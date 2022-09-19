@@ -1,6 +1,7 @@
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
+@import "code_highlighting";
 
 d-byline {
   border-top-color: var(--global-divider-color) !important;
@@ -30,6 +31,9 @@ d-article {
   }
   b i {
     display: inline;
+  }
+  code.highlighter-rouge {
+    color: var(--global-theme-color);
   }
 
   d-contents {
@@ -120,6 +124,9 @@ d-appendix {
       border: 1px solid var(--global-divider-color);
       nav {
         grid-column: none;
+        a {
+          font-size: 1rem;
+        }
       }
     }
   }

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-09-01
 inline: true
 ---
 
-A simple inline announcement.
+Officially starting as an AI resident at [AI4Bharat (IIT Madras)](https://ai4bharat.org/).
