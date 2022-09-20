@@ -5,10 +5,13 @@
 
 d-byline {
   border-top-color: var(--global-divider-color) !important;
-}
-
-d-byline h3 {
-  color: var(--global-text-color) !important;
+  h3 {
+    color: var(--global-text-color) !important;
+    font-size: 0.7rem;
+  }
+  p {
+    font-size: 0.875rem;
+  }
 }
 
 d-byline a, d-article d-byline a {
