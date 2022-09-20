@@ -7,7 +7,7 @@ d-byline {
   border-top-color: var(--global-divider-color) !important;
   h3 {
     color: var(--global-text-color) !important;
-    font-size: 0.7rem;
+    font-size: 0.7rem !important;
   }
   p {
     font-size: 0.875rem;
@@ -143,7 +143,7 @@ d-appendix {
     }
     d-byline {
       h3 {
-        font-size: 0.8rem;
+        font-size: 0.8rem !important;
       }
       p {
         font-size: 1rem;
