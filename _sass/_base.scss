@@ -167,6 +167,8 @@ blockquote {
     color: var(--global-text-color);
   }
   .navbar-nav .nav-item .nav-link {
+    // statically hard-coded for now to have consistent font size across pages
+    font-size: 16px;
     color: var(--global-text-color);
     &:hover {
       color: var(--global-hover-color);
@@ -240,12 +242,6 @@ blockquote {
   color: var(--global-text-color);
   &:hover {
     color: var(--global-hover-color);
-  }
-}
-
-@media (max-width: 1024px) {
-  .navbar-nav .nav-item .nav-link {
-    font-size: 1.2rem;
   }
 }
 

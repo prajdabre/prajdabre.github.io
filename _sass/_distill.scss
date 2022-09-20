@@ -58,6 +58,7 @@ d-article {
       grid-column: toc;
       a {
         border-bottom: none !important;
+        font-size: 0.875rem;
         &:hover {
           border-bottom: 1px solid var(--global-text-color) !important;
         }
@@ -127,6 +128,41 @@ d-appendix {
         a {
           font-size: 1rem;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .distill {
+    d-title p {
+      font-size: 1.145rem;
+    }
+    d-byline {
+      h3 {
+        font-size: 0.8rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+    d-article {
+      h3 {
+        font-size: 1.428rem;
+      }
+      p {
+        font-size: 1.145rem;
+      }
+      .caption {
+        font-size: 1.145rem;
+      }
+      .note {
+        font-size: 1.2rem;
+      }
+    }
+    d-appendix {
+      li {
+        font-size: 0.875rem;
       }
     }
   }
