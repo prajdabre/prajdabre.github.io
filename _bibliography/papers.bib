@@ -1,10 +1,22 @@
 ---
 ---
 
+@inproceedings{fedspeech2023,
+  abbr      = {EACL},
+  title     = {A Federated Approach for Hate Speech Detection},
+  author    = {Gala*, Jay and Gandhi*, Deep and Mehta*, Jash and Talat, Zeerak},
+  abstract  = {Hate speech detection has been the subject of high research attention, due to the scale of content created on social media. In spite of the attention and the sensitive nature of the task, privacy preservation in hate speech detection has remained under-studied. The majority of research has focused on centralised machine learning infrastructures which risk leaking data. In this paper, we show that using federated machine learning can help address privacy the concerns that are inehrent to hate speech detection while obtaining up to 6.81% improvement in terms of F1-score.},
+  booktitle = {Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics (EACL)},
+  year      = {2023},
+  publisher = {Association for Computational Linguistics},
+  arxiv     = {2302.09243},
+  code      = {https://github.com/jaygala24/fed-hate-speech}
+}
+
 @article{gala2021learning,
   abbr     = {arXiv},
   title    = {Learning from Mistakes based on Class Weighting with Application to Neural Architecture Search},
-  author   = {Gala*, Jay and Xie, Pengtao},
+  author   = {Gala, Jay and Xie, Pengtao},
   abstract = {Learning from mistakes is an effective learning approach widely used in human learning, where a learner pays greater focus on mistakes to circumvent them in the future to improve the overall learning outcomes. In this work, we aim to investigate how effectively we can leverage this exceptional learning ability to improve machine learning models. We propose a simple and effective multi-level optimization framework called learning from mistakes using class weighting (LFM-CW), inspired by mistake-driven learning to train better machine learning models. In this formulation, the primary objective is to train a model to perform effectively on target tasks by using a re-weighting technique. We learn the class weights by minimizing the validation loss of the model and re-train the model with the synthetic data from the image generator weighted by class-wise performance and real data. We apply our LFM-CW framework with differential architecture search methods on image classification datasets such as CIFAR and ImageNet, where the results show that our proposed strategy achieves lower error rate than the baselines.},
   journal  = {arXiv preprint},
   year     = {2021},
