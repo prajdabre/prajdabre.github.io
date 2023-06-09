@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hey, thanks for stopping by! 👋
 
-I am an AI Resident at [AI4Bharat (IIT Madras)](https://ai4bharat.org/) under the supervision of [Prof. Mitesh Khapra](http://www.cse.iitm.ac.in/~miteshk/), [Dr. Anoop Kunchukuttan](http://anoopk.in/) and [Dr. Raj Dabre](https://scholar.google.co.in/citations?hl=en&user=x91u618AAAAJ&view_op=list_works&sortby=pubdate), working on building open-source datasets and models for Indian languages. I am broadly interested in the areas of multimodal and multilingual learning specifically in context of data-efficient learning, robustness and generalization.
+I am an AI Resident at [AI4Bharat (IIT Madras)](https://ai4bharat.org/) under the supervision of [Prof. Mitesh Khapra](http://www.cse.iitm.ac.in/~miteshk/), [Dr. Anoop Kunchukuttan](http://anoopk.in/) and [Dr. Raj Dabre](https://scholar.google.co.in/citations?hl=en&user=x91u618AAAAJ&view_op=list_works&sortby=pubdate), working on building open-source datasets and models for Indian languages. I am broadly interested in the areas of multimodal and multilingual learning, specifically in the context of data-efficient learning, training dynamics and generalization.
 
 I am also collaborating with [Dr. Zeerak Talat](https://scholar.google.com/citations?hl=en&user=3M3WdvkAAAAJ&view_op=list_works&sortby=pubdate) from [Simon Fraser University](https://digitaldemocracies.org/) on hate speech detection using federated learning. Prior to that I was a research intern at [University of California San Diego](https://ucsd.edu/) under the supervision of [Prof. Pengtao Xie](https://sites.google.com/site/pengtaoxie2008), where I worked on neural architecture search and generative models.
 
