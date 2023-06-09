@@ -9,13 +9,25 @@ nav_order: 2
 
 ### 2023
 
+- QLoRA: Efficient Finetuning of Quantized LLMs ([Paper](https://arxiv.org/abs/2305.14314))
+  <br> **ML Collective NLP Reading Group**
+
+- Few-Shot Parameter-Efficient Fine-Tuning is Better and Cheaper than In-Context Learning ([Paper](https://arxiv.org/abs/2205.05638))
+  <br> **ML Collective NLP Reading Group**
+
+- Sparks of Artificial General Intelligence: Early experiments with GPT-4 ([Paper](https://arxiv.org/abs/2303.12712))
+  <br> **ML Collective NLP Reading Group**
+
+- Mixture of Soft Prompts for Controllable Data Generation ([Paper](https://arxiv.org/abs/2303.01580), [Annotated Paper](https://drive.google.com/file/d/1j8grlqnCABkdS2fa-VPni2RhhRzRAA8T/view))
+  <br> **ML Collective NLP Reading Group**
+
 - Does Localization Inform Editing? Surprising Differences in Causality-Based Localization vs. Knowledge Editing in Language Models ([Paper](https://arxiv.org/abs/2301.04213), [Slides](https://docs.google.com/presentation/d/1UJkXLiYS0FEtuKsgT_4HCT3WX2oFbuaFEeyeVVw7IjE/edit?usp=sharing))
   <br> **Cohere For AI NLP Reading Group**
 
-- Attention with Linear Biases Enables Input Length Extrapolation ([Paper](https://arxiv.org/abs/2108.12409), [Annotated Paper](https://drive.google.com/file/d/1samZrqZjHMgirlbfGjffndbIbTPyJe5n/view?usp=sharing))
+- Attention with Linear Biases Enables Input Length Extrapolation ([Paper](https://arxiv.org/abs/2108.12409), [Annotated Paper](https://drive.google.com/file/d/1samZrqZjHMgirlbfGjffndbIbTPyJe5n/view?usp=sharing), [Video](https://www.youtube.com/watch?v=KvWpw5tZ1gc))
   <br> **ML Collective NLP Reading Group**
 
-- Training a Language Model on a Single GPU in One Day ([Paper](https://arxiv.org/abs/2212.14034), [Annotated Paper](https://drive.google.com/file/d/1sbmaEkuUNi2m5x92XlXlw1A2pSbsnYd8/view?usp=sharing))
+- Training a Language Model on a Single GPU in One Day ([Paper](https://arxiv.org/abs/2212.14034), [Annotated Paper](https://drive.google.com/file/d/1sbmaEkuUNi2m5x92XlXlw1A2pSbsnYd8/view?usp=sharing), [Video](https://www.youtube.com/watch?v=POUGSPZaMsk))
   <br> **ML Collective NLP Reading Group**
 
 ### 2022
