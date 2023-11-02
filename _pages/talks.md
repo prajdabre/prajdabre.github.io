@@ -9,6 +9,10 @@ nav_order: 2
 
 ### 2023
 
+- Developing SOTA MNMT Systems for Related Languages ([Slides](https://docs.google.com/presentation/d/1BW9N9Fi8X9QQYB_DmyjHm2w-0idKlfuydH3eswgpIqs/edit?usp=sharing))
+  <br> **Tutorial at AACL-IJCNLP 2023**
+
+
 - QLoRA: Efficient Finetuning of Quantized LLMs ([Paper](https://arxiv.org/abs/2305.14314))
   <br> **ML Collective NLP Reading Group**
 

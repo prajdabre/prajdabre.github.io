@@ -26,3 +26,25 @@ I completed my Bachelor’s degree in Computer Engineering from [University of M
 I also served as a mentor at [DJ Unicode](https://www.djunicode.in/), a student organization that aims to inspire sophomores and juniors to contribute to open-source projects. Additionally, I led a team that developed a platform for conducting C programming examinations in college for over 500 students ([demo](https://www.youtube.com/watch?v=kn7lwJoYfuU)).
 
 I co-founded the research division of Unicode (a.k.a. [Unicode Research](https://unicode-research.netlify.app/people/)) with [Swapneel Mehta](https://mehtaver.se/) from [NYU CSMaP group](https://csmapnyu.org/). We were fortunate to be joined by [Dr. Akash Srivastava](https://akashgit.github.io/) from [MIT-IBM AI Lab](https://mitibmwatsonailab.mit.edu/) for foundational lectures on deep generative models and probabilistic machine learning. I also worked as a teaching assistant for the [Unicode Machine Learning Summer Course 2021](https://djunicode.github.io/umlsc-2021/) supported by **Google Research India**. Additionally, I was a founding research engineer at [SimPPL](https://simppl.org/) where I collaborated with The Sunday Times and Ippen Digital to develop tools ([parrot.report](https://parrot.report/)) that help policymakers and journalists audit online disinformation on social media.
+
+<hr>
+
+<h2 style="color:#003BDE; margin-bottom:0.5em">News</h2>
+
+##### 2023
+
+- **November** - Presenting Tutorial on [Developing SOTA MNMT Systems for Related Languages](http://www.afnlp.org/conferences/ijcnlp2023/wp/program/accepted-tutorials/) at Tutorial at AACL-IJCNLP 2023.
+- **May** - Excited to share the release of IndicTrans2, first open-source model to support all 22 Scheduled Indian languages. Check out the [Preprint](https://arxiv.org/abs/2305.16307) and [Code](https://github.com/AI4Bharat/IndicTrans2)!
+- **January** - A Federated Approach for Hate Speech Detection has been accepted to EACL 2023. Check out the [Preprint](https://arxiv.org/abs/2302.09243) and [Code](https://github.com/jaygala24/fed-hate-speech)!
+
+##### 2022
+
+- **September** - Officially starting as an AI resident at [AI4Bharat (IIT Madras)](https://ai4bharat.org/).
+- **July** - Attending the [Eastern European Machine Learning Summer School (EEML) 2022](https://www.eeml.eu/home).
+- **January** - Attending the [Advanced Language Processing Winter School (ALPS) 2022](https://lig-alps.imag.fr/).
+
+##### 2021
+
+- **October** - Starting independent collaboration with [Dr. Zeerak Talat](Dr. Zeerak Talat).
+- **June** - Officially starting as a research intern with [Prof. Pengtao Xie](https://sites.google.com/site/pengtaoxie2008) at UCSD.
+
