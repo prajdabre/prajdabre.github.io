@@ -33,6 +33,7 @@ I co-founded the research division of Unicode (a.k.a. [Unicode Research](https:/
 
 ##### 2023
 
+- **November** - IndicTrans2 submission has been accepted at TMLR.
 - **November** - Presenting Tutorial on [Developing SOTA MNMT Systems for Related Languages](http://www.afnlp.org/conferences/ijcnlp2023/wp/program/accepted-tutorials/) at Tutorial at AACL-IJCNLP 2023.
 - **May** - Excited to share the release of IndicTrans2, first open-source model to support all 22 Scheduled Indian languages. Check out the [Preprint](https://arxiv.org/abs/2305.16307) and [Code](https://github.com/AI4Bharat/IndicTrans2)!
 - **January** - A Federated Approach for Hate Speech Detection has been accepted to EACL 2023. Check out the [Preprint](https://arxiv.org/abs/2302.09243) and [Code](https://github.com/jaygala24/fed-hate-speech)!
