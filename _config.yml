@@ -71,7 +71,7 @@ gitlab_username: # your GitLab user name
 twitter_username: jaygala24 # your Twitter handle
 linkedin_username: jaygala24 # your LinkedIn user name
 scholar_userid: lNn2qGoAAAAJ # your Google Scholar ID
-semanticscholar_id: # your Semantic Scholar ID
+semanticscholar_id: 1992915388 # your Semantic Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -93,7 +93,7 @@ facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
-  Feel free to reach out me via twitter or email.
+  Feel free to reach out me via twitter, linkedin or email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

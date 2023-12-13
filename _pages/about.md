@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hey, thanks for stopping by! 👋
 
-I am an AI Resident at [AI4Bharat (IIT Madras)](https://ai4bharat.org/) under the supervision of [Prof. Mitesh Khapra](http://www.cse.iitm.ac.in/~miteshk/), [Dr. Anoop Kunchukuttan](http://anoopk.in/) and [Dr. Raj Dabre](https://scholar.google.co.in/citations?hl=en&user=x91u618AAAAJ&view_op=list_works&sortby=pubdate). I work on building open-source datasets and models for Indian languages. I am broadly interested in the areas of multimodal and multilingual learning, specifically in the context of data-efficient learning, training dynamics and generalization.
+I am an AI Resident at [AI4Bharat (IIT Madras)](https://ai4bharat.org/) under the supervision of [Prof. Mitesh Khapra](http://www.cse.iitm.ac.in/~miteshk/), [Dr. Anoop Kunchukuttan](http://anoopk.in/) and [Dr. Raj Dabre](https://scholar.google.co.in/citations?hl=en&user=x91u618AAAAJ&view_op=list_works&sortby=pubdate). I work on building open-source datasets and models for Indian languages. I am broadly interested in the areas of multimodal and multilingual learning, specifically in the context of data-efficient learning, training dynamics, reasoning and generalization.
 
 I am also collaborating with [Dr. Zeerak Talat](https://zeerak.org/) on hate speech detection using federated learning. Before that, I was a research intern at [University of California San Diego](https://ucsd.edu/) under the supervision of [Prof. Pengtao Xie](https://pengtaoxie.github.io/), where I worked on neural architecture search and generative models.
 
@@ -33,6 +33,7 @@ I co-founded the research division of Unicode (a.k.a. [Unicode Research](https:/
 
 ##### 2023
 
+- **December** - Attending the [Conference on Empirical Methods in Natural Language Processing (EMNLP 2023)](https://2023.emnlp.org/).
 - **November** - IndicTrans2 submission has been accepted at TMLR.
 - **November** - Presenting Tutorial on [Developing SOTA MNMT Systems for Related Languages](http://www.afnlp.org/conferences/ijcnlp2023/wp/program/accepted-tutorials/) at Tutorial at AACL-IJCNLP 2023.
 - **May** - Excited to share the release of IndicTrans2, first open-source model to support all 22 Scheduled Indian languages. Check out the [Preprint](https://arxiv.org/abs/2305.16307) and [Code](https://github.com/AI4Bharat/IndicTrans2)!
