@@ -1,16 +1,27 @@
 ---
 ---
 
-@article{ai4bharat2023indictrans2,
-  abbr     = {ArXiv},
+@inproceedings{dabre2023wmt,
+  abbr     = {WMT},
+  title    = {NICT-AI4B's Submission to the Indic MT Shared Task in WMT 2023},
+  author   = {Raj Dabre and Jay Gala and Pranjal Chitale},
+  abstract = {In this paper, we (Team NICT-AI4B) describe our MT systems that we submit to the Indic MT task in WMT 2023. Our primary system consists of 3 stages: Joint denoising and MT training using officially approved monolingual and parallel corpora, backtranslation and, MT training on original and backtranslated parallel corpora. We observe that backtranslation leads to substantial improvements in translation quality up to 4 BLEU points. We also develop 2 contrastive systems on unconstrained settings, where the first system involves fine-tuning of IndicTrans2 DA models on official parallel corpora and seed data used in AI4Bharat et al, (2023), and the second system involves a system combination of the primary and the aforementioned system. Overall, we manage to obtain high-quality translation systems for the 4 low-resource North-East Indian languages of focus.},
+  booktitle  = {Proceedings of the Eighth Conference on Machine Translation},
+  year     = {2023},
+  publisher = {Association for Computational Linguistics},
+  html     = {https://aclanthology.org/2023.wmt-1.88}
+}
+
+@article{gala2023indictrans,
+  abbr     = {TMLR},
   title    = {IndicTrans2: Towards High-Quality and Accessible Machine Translation Models for all 22 Scheduled Indian Languages},
-  author   = {AI4Bharat and Jay Gala* and Pranjal A. Chitale* and Raghavan AK and Sumanth Doddapaneni and Varun Gumma and Aswanth Kumar and Janki Nawale and Anupama Sujatha and Ratish Puduppully and Vivek Raghavan and Pratyush Kumar and Mitesh M. Khapra and Raj Dabre and Anoop Kunchukuttan},
+  author   = {Jay Gala* and Pranjal A. Chitale* and Raghavan AK and Varun Gumma and Sumanth Doddapaneni and Aswanth Kumar and Janki Nawale and Anupama Sujatha and Ratish Puduppully and Vivek Raghavan and Pratyush Kumar and Mitesh M. Khapra and Raj Dabre and Anoop Kunchukuttan},
   abstract = {India has a rich linguistic landscape with languages from 4 major language families spoken by over a billion people. 22 of these languages are listed in the Constitution of India (referred to as scheduled languages) are the focus of this work. Given the linguistic diversity, high-quality and accessible Machine Translation (MT) systems are essential in a country like India. Prior to this work, there was (i) no parallel training data spanning all the 22 languages, (ii) no robust benchmarks covering all these languages and containing content relevant to India, and (iii) no existing translation models which support all the 22 scheduled languages of India. In this work, we aim to address this gap by focusing on the missing pieces required for enabling wide, easy, and open access to good machine translation systems for all 22 scheduled Indian languages. We identify four key areas of improvement: curating and creating larger training datasets, creating diverse and high-quality benchmarks, training multilingual models, and releasing models with open access. Our first contribution is the release of the Bharat Parallel Corpus Collection (BPCC), the largest publicly available parallel corpora for Indic languages. BPCC contains a total of 230M bitext pairs, of which a total of 126M were newly added, including 644K manually translated sentence pairs created as part of this work. Our second contribution is the release of the first n-way parallel benchmark covering all 22 Indian languages, featuring diverse domains, Indian-origin content, and source-original test sets. Next, we present IndicTrans2, the first model to support all 22 languages, surpassing existing models on multiple existing and new benchmarks created as a part of this work. Lastly, to promote accessibility and collaboration, we release our models and associated data with permissive licenses at https://github.com/ai4bharat/indictrans2.},
   year     = {2023},
-  journal  = {ArXiv Preprint},
+  journal  = {Transactions on Machine Learning Research},
   arxiv    = {2305.16307},
   code     = {https://github.com/ai4bharat/indictrans2},
-  html     = {https://models.ai4bharat.org/#/nmt/v2}
+  html     = {https://openreview.net/forum?id=vfT4YuzAYA}
 }
 
 @inproceedings{fedspeech2023,
