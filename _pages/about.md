@@ -10,9 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
 
-news: true  # includes a list of news items
+news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 Hey, thanks for stopping by! 👋
@@ -30,6 +30,10 @@ I co-founded the research division of Unicode (a.k.a. [Unicode Research](https:/
 <hr>
 
 <h2 style="color:#003BDE; margin-bottom:0.5em">News</h2>
+
+##### 2024
+
+- **January** - Excited to announce the release of Airavata, an instruction-tuned Hindi LLM. Check out the [Blog](https://ai4bharat.github.io/airavata) and [Code](https://github.com/AI4Bharat/IndicInstruct)!
 
 ##### 2023
 
@@ -49,4 +53,3 @@ I co-founded the research division of Unicode (a.k.a. [Unicode Research](https:/
 
 - **October** - Starting independent collaboration with [Dr. Zeerak Talat](Dr. Zeerak Talat).
 - **June** - Officially starting as a research intern with [Prof. Pengtao Xie](https://sites.google.com/site/pengtaoxie2008) at UCSD.
-
