@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Jay
+first_name: Raj
 middle_name: 
-last_name: Gala
-email: jaygala24@gmail.com
+last_name: Dabre
+email: prajdabre@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A personal website to showcase the research and development along with the blogs.
 footer_text: >
@@ -66,12 +66,12 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: jaygala24 # your GitHub user name
+github_username: prajdabre # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: jaygala24 # your Twitter handle
-linkedin_username: jaygala24 # your LinkedIn user name
-scholar_userid: lNn2qGoAAAAJ # your Google Scholar ID
-semanticscholar_id: 1992915388 # your Semantic Scholar ID
+twitter_username: prajdabre1 # your Twitter handle
+linkedin_username: prajdabre # your LinkedIn user name
+scholar_userid: x91u618AAAAJ # your Google Scholar ID
+semanticscholar_id: 3209719 # your Semantic Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -227,8 +227,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Gala
-  first_name: [Jay, J.]
+  last_name: Dabre
+  first_name: [Raj, R.]
 
   style: apa
   locale: en
