@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-> subtitle: <span class="font-weight-bold">Researcher</span> @ <a href="https://astrec.nict.go.jp/en/" target="_blank">NICT, Japan</a> • <span class="font-weight-bold">Adjunct Faculty</span> @ <a href="https://ai4bharat.org/" target="_blank">IIT Madras (AI4Bharat)</a>
+subtitle: <span class="font-weight-bold">Researcher</span> @ <a href="https://astrec.nict.go.jp/en/" target="_blank">NICT, Japan</a> • <span class="font-weight-bold">Adjunct Faculty</span> @ <a href="https://ai4bharat.org/" target="_blank">IIT Madras (AI4Bharat)</a>
 
 
 profile:
