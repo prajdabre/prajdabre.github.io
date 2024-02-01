@@ -1,1 +1,550 @@
+---
+---
 
+@inproceedings{gumma-etal-2023-empirical,
+    title = "An Empirical Study of Leveraging Knowledge Distillation for Compressing Multilingual Neural Machine Translation Models",
+    author = "Gumma, Varun  and
+      Dabre, Raj  and
+      Kumar, Pratyush",
+    editor = "Nurminen, Mary  and
+      Brenner, Judith  and
+      Koponen, Maarit  and
+      Latomaa, Sirkku  and
+      Mikhailov, Mikhail  and
+      Schierl, Frederike  and
+      Ranasinghe, Tharindu  and
+      Vanmassenhove, Eva  and
+      Vidal, Sergi Alvarez  and
+      Aranberri, Nora  and
+      Nunziatini, Mara  and
+      Escart{\'\i}n, Carla Parra  and
+      Forcada, Mikel  and
+      Popovic, Maja  and
+      Scarton, Carolina  and
+      Moniz, Helena",
+    booktitle = "Proceedings of the 24th Annual Conference of the European Association for Machine Translation",
+    month = jun,
+    year = "2023",
+    address = "Tampere, Finland",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2023.eamt-1.11",
+    pages = "103--114",
+    abstract = "Knowledge distillation (KD) is a well-known method for compressing neural models. However, works focusing on distilling knowledge from large multilingual neural machine translation (MNMT) models into smaller ones are practically nonexistent, despite the popularity and superiority of MNMT. This paper bridges this gap by presenting an empirical investigation of knowledge distillation for compressing MNMT models. We take Indic to English translation as a case study and demonstrate that commonly used language-agnostic and language-aware KD approaches yield models that are 4-5x smaller but also suffer from performance drops of up to 3.5 BLEU. To mitigate this, we then experiment with design considerations such as shallower versus deeper models, heavy parameter sharing, multistage training, and adapters. We observe that deeper compact models tend to be as good as shallower non-compact ones and that fine-tuning a distilled model on a high-quality subset slightly boosts translation quality. Overall, we conclude that compressing MNMT models via KD is challenging, indicating immense scope for further research.",
+}
+
+@inproceedings{sai-b-etal-2023-indicmt,
+    title = "{I}ndic{MT} Eval: A Dataset to Meta-Evaluate Machine Translation Metrics for {I}ndian Languages",
+    author = "Sai B, Ananya  and
+      Dixit, Tanay  and
+      Nagarajan, Vignesh  and
+      Kunchukuttan, Anoop  and
+      Kumar, Pratyush  and
+      Khapra, Mitesh M.  and
+      Dabre, Raj",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.795",
+    doi = "10.18653/v1/2023.acl-long.795",
+    pages = "14210--14228",
+    abstract = "The rapid growth of machine translation (MT) systems necessitates meta-evaluations of evaluation metrics to enable selection of those that best reflect MT quality. Unfortunately, most meta-evaluation studies focus on European languages, the observations for which may not always apply to other languages. Indian languages, having over a billion speakers, are linguistically different from them, and to date, there are no such systematic studies focused solely on English to Indian language MT. This paper fills this gap through a Multidimensional Quality Metric (MQM) dataset consisting of 7000 fine-grained annotations, spanning 5 Indian languages and 7 MT systems. We evaluate 16 metrics and show that, pre-trained metrics like COMET have the highest correlations with annotator scores as opposed to n-gram metrics like BLEU. We further leverage our MQM annotations to develop an Indic-COMET metric and show that it outperforms COMET counterparts in both human scores correlations and robustness scores in Indian languages. Additionally, we show that the Indic-COMET can outperform COMET on some unseen Indian languages. We hope that our dataset and analysis will facilitate further research in Indic MT evaluation.",
+}
+
+@inproceedings{mao-etal-2023-exploring,
+    title = "Exploring the Impact of Layer Normalization for Zero-shot Neural Machine Translation",
+    author = "Mao, Zhuoyuan  and
+      Dabre, Raj  and
+      Liu, Qianying  and
+      Song, Haiyue  and
+      Chu, Chenhui  and
+      Kurohashi, Sadao",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-short.112",
+    doi = "10.18653/v1/2023.acl-short.112",
+    pages = "1300--1316",
+    abstract = "This paper studies the impact of layer normalization (LayerNorm) on zero-shot translation (ZST). Recent efforts for ZST often utilize the Transformer architecture as the backbone, with LayerNorm at the input of layers (PreNorm) set as the default. However, Xu et al. (2019) has revealed that PreNorm carries the risk of overfitting the training data. Based on this, we hypothesize that PreNorm may overfit supervised directions and thus have low generalizability for ZST. Through experiments on OPUS, IWSLT, and Europarl datasets for 54 ZST directions, we demonstrate that the original Transformer setting of LayerNorm after residual connections (PostNorm) consistently outperforms PreNorm by up to 12.3 BLEU points. We then study the performance disparities by analyzing the differences in off-target rates and structural variations between PreNorm and PostNorm. This study highlights the need for careful consideration of the LayerNorm setting for ZST.",
+}
+
+@inproceedings{dabre-etal-2023-yanmtt,
+    title = "{YANMTT}: Yet Another Neural Machine Translation Toolkit",
+    author = "Dabre, Raj  and
+      Kanojia, Diptesh  and
+      Sawant, Chinmay  and
+      Sumita, Eiichiro",
+    editor = "Bollegala, Danushka  and
+      Huang, Ruihong  and
+      Ritter, Alan",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-demo.24",
+    doi = "10.18653/v1/2023.acl-demo.24",
+    pages = "257--263",
+    abstract = "In this paper, we present our open-source neural machine translation (NMT) toolkit called {``}Yet Another Neural Machine Translation Toolkit{''} abbreviated as YANMTT - \url{https://github.com/prajdabre/yanmtt}, which is built on top of the HuggingFace Transformers library. YANMTT focuses on transfer learning and enables easy pre-training and fine-tuning of sequence-to-sequence models at scale. It can be used for training parameter-heavy models with minimal parameter sharing and efficient, lightweight models via heavy parameter sharing. Additionally, it supports parameter-efficient fine-tuning (PEFT) through adapters and prompts. Our toolkit also comes with a user interface that can be used to demonstrate these models and visualize various parts of the model. Apart from these core features, our toolkit also provides other advanced functionalities such as but not limited to document/multi-source NMT, simultaneous NMT, mixtures-of-experts, model compression and continual learning.",
+}
+
+@inproceedings{puduppully-etal-2023-decomt,
+    title = "{D}eco{MT}: Decomposed Prompting for Machine Translation Between Related Languages using Large Language Models",
+    author = "Puduppully, Ratish  and
+      Kunchukuttan, Anoop  and
+      Dabre, Raj  and
+      Aw, Ai Ti  and
+      Chen, Nancy",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.279",
+    doi = "10.18653/v1/2023.emnlp-main.279",
+    pages = "4586--4602",
+    abstract = "This study investigates machine translation between related languages i.e., languages within the same family that share linguistic characteristics such as word order and lexical similarity. Machine translation through few-shot prompting leverages a small set of translation pair examples to generate translations for test sentences. This procedure requires the model to learn how to generate translations while simultaneously ensuring that token ordering is maintained to produce a fluent and accurate translation. We propose that for related languages, the task of machine translation can be simplified by leveraging the monotonic alignment characteristic of such languages. We introduce DecoMT, a novel approach of few-shot prompting that decomposes the translation process into a sequence of word chunk translations. Through automatic and human evaluation conducted on multiple related language pairs across various language families, we demonstrate that our proposed approach of decomposed prompting surpasses multiple established few-shot baseline approaches. For example, DecoMT outperforms the strong few-shot prompting BLOOM model with an average improvement of 8 chrF++ scores across the examined languages.",
+}
+
+@proceedings{wat-2023-asian,
+    title = "Proceedings of the 10th Workshop on Asian Translation",
+    editor = "Nakazawa, Toshiaki  and
+      Kinugawa, Kazutaka  and
+      Mino, Hideya  and
+      Goto, Isao  and
+      Dabre, Raj  and
+      Higashiyama, Shohei  and
+      Parida, Shantipriya  and
+      Morishita, Makoto  and
+      Bojar, Ondrej  and
+      Eriguchi, Akiko  and
+      Oda, Yusuke  and
+      Eriguchi, Akiko  and
+      Chu, Chenhui  and
+      Kurohashi, Sadao",
+    month = sep,
+    year = "2023",
+    address = "Macau SAR, China",
+    publisher = "Asia-Pacific Association for Machine Translation",
+    url = "https://aclanthology.org/2023.wat-1.0",
+}
+
+@inproceedings{nakazawa-etal-2023-overview,
+    title = "Overview of the 10th Workshop on {A}sian Translation",
+    author = "Nakazawa, Toshiaki  and
+      Kinugawa, Kazutaka  and
+      Mino, Hideya  and
+      Goto, Isao  and
+      Dabre, Raj  and
+      Higashiyama, Shohei  and
+      Parida, Shantipriya  and
+      Morishita, Makoto  and
+      Bojar, Ond{\v{r}}ej  and
+      Eriguchi, Akiko  and
+      Oda, Yusuke  and
+      Chu, Chenhui  and
+      Kurohashi, Sadao",
+    editor = "Nakazawa, Toshiaki  and
+      Kinugawa, Kazutaka  and
+      Mino, Hideya  and
+      Goto, Isao  and
+      Dabre, Raj  and
+      Higashiyama, Shohei  and
+      Parida, Shantipriya  and
+      Morishita, Makoto  and
+      Bojar, Ondrej  and
+      Eriguchi, Akiko  and
+      Oda, Yusuke  and
+      Eriguchi, Akiko  and
+      Chu, Chenhui  and
+      Kurohashi, Sadao",
+    booktitle = "Proceedings of the 10th Workshop on Asian Translation",
+    month = sep,
+    year = "2023",
+    address = "Macau SAR, China",
+    publisher = "Asia-Pacific Association for Machine Translation",
+    url = "https://aclanthology.org/2023.wat-1.1",
+    pages = "1--28",
+    abstract = "This paper presents the results of the shared tasks from the 10th workshop on Asian translation (WAT2023). For the WAT2023, 2 teams submitted their translation results for the human evaluation. We also accepted 1 research paper. About 40 translation results were submitted to the automatic evaluation server, and selected submissions were manually evaluated.",
+}
+
+@inproceedings{machacek-etal-2023-mt,
+    title = "{MT} Metrics Correlate with Human Ratings of Simultaneous Speech Translation",
+    author = "Mach{\'a}{\v{c}}ek, Dominik  and
+      Bojar, Ond{\v{r}}ej  and
+      Dabre, Raj",
+    editor = "Salesky, Elizabeth  and
+      Federico, Marcello  and
+      Carpuat, Marine",
+    booktitle = "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada (in-person and online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.iwslt-1.12",
+    doi = "10.18653/v1/2023.iwslt-1.12",
+    pages = "169--179",
+    abstract = "There have been several meta-evaluation studies on the correlation between human ratings and offline machine translation (MT) evaluation metrics such as BLEU, chrF2, BertScore and COMET. These metrics have been used to evaluate simultaneous speech translation (SST) but their correlations with human ratings of SST, which has been recently collected as Continuous Ratings (CR), are unclear. In this paper, we leverage the evaluations of candidate systems submitted to the English-German SST task at IWSLT 2022 and conduct an extensive correlation analysis of CR and the aforementioned metrics. Our study reveals that the offline metrics are well correlated with CR and can be reliably used for evaluating machine translation in simultaneous mode, with some limitations on the test set size. We conclude that given the current quality levels of SST, these metrics can be used as proxies for CR, alleviating the need for large scale human evaluation. Additionally, we observe that correlations of the metrics with translation as a reference is significantly higher than with simultaneous interpreting, and thus we recommend the former for reliable evaluation.",
+}
+
+@inproceedings{dabre-etal-2023-nict,
+    title = "{NICT}-{AI}4{B}{'}s Submission to the {I}ndic {MT} Shared Task in {WMT} 2023",
+    author = "Dabre, Raj  and
+      Gala, Jay  and
+      Chitale, Pranjal",
+    editor = "Koehn, Philipp  and
+      Haddow, Barry  and
+      Kocmi, Tom  and
+      Monz, Christof",
+    booktitle = "Proceedings of the Eighth Conference on Machine Translation",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.wmt-1.88",
+    doi = "10.18653/v1/2023.wmt-1.88",
+    pages = "941--949",
+    abstract = "In this paper, we (Team NICT-AI4B) describe our MT systems that we submit to the Indic MT task in WMT 2023. Our primary system consists of 3 stages: Joint denoising and MT training using officially approved monolingual and parallel corpora, backtranslation and, MT training on original and backtranslated parallel corpora. We observe that backtranslation leads to substantial improvements in translation quality up to 4 BLEU points. We also develop 2 contrastive systems on unconstrained settings, where the first system involves fine-tuning of IndicTrans2 DA models on official parallel corpora and seed data used in AI4Bharat et al, (2023), and the second system involves a system combination of the primary and the aforementioned system. Overall, we manage to obtain high-quality translation systems for the 4 low-resource North-East Indian languages of focus.",
+}
+
+@inproceedings{machacek-etal-2023-robustness,
+    title = "Robustness of Multi-Source {MT} to Transcription Errors",
+    author = "Mach{\'a}{\v{c}}ek, Dominik  and
+      Pol{\'a}k, Peter  and
+      Bojar, Ond{\v{r}}ej  and
+      Dabre, Raj",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.228",
+    doi = "10.18653/v1/2023.findings-acl.228",
+    pages = "3707--3723",
+    abstract = "Automatic speech translation is sensitive to speech recognition errors, but in a multilingual scenario, the same content may be available in various languages via simultaneous interpreting, dubbing or subtitling. In this paper, we hypothesize that leveraging multiple sources will improve translation quality if the sources complement one another in terms of correct information they contain. To this end, we first show that on a 10-hour ESIC corpus, the ASR errors in the original English speech and its simultaneous interpreting into German and Czech are mutually independent. We then use two sources, English and German, in a multi-source setting for translation into Czech to establish its robustness to ASR errors. Furthermore, we observe this robustness when translating both noisy sources together in a simultaneous translation setting. Our results show that multi-source neural machine translation has the potential to be useful in a real-time simultaneous translation setting, thereby motivating further investigation in this area.",
+}
+
+@inproceedings{m-etal-2023-ctqscorer,
+    title = "{CTQS}corer: Combining Multiple Features for In-context Example Selection for Machine Translation",
+    author = "M, Aswanth  and
+      Puduppully, Ratish  and
+      Dabre, Raj  and
+      Kunchukuttan, Anoop",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.519",
+    doi = "10.18653/v1/2023.findings-emnlp.519",
+    pages = "7736--7752",
+    abstract = "Large language models have demonstrated the capability to perform on machine translation when the input is prompted with a few examples (in-context learning). Translation quality depends on various features of the selected examples, such as their quality and relevance, but previous work has predominantly focused on individual features in isolation. In this paper, we propose a general framework for combining different features influencing example selection. We learn a regression model, CTQ Scorer (Contextual Translation Quality), that selects examples based on multiple features in order to maximize the translation quality. On multiple language pairs and language models, we show that CTQ Scorer helps significantly outperform random selection as well as strong single-factor baselines reported in the literature. We also see an improvement of over 2.5 COMET points on average with respect to a strong BM25 retrieval-based baseline.",
+}
+
+@inproceedings{dabre-etal-2023-study,
+    title = "A Study on the Effectiveness of Large Language Models for Translation with Markup",
+    author = "Dabre, Raj  and
+      Buschbeck, Bianka  and
+      Exel, Miriam  and
+      Tanaka, Hideki",
+    editor = "Utiyama, Masao  and
+      Wang, Rui",
+    booktitle = "Proceedings of Machine Translation Summit XIX, Vol. 1: Research Track",
+    month = sep,
+    year = "2023",
+    address = "Macau SAR, China",
+    publisher = "Asia-Pacific Association for Machine Translation",
+    url = "https://aclanthology.org/2023.mtsummit-research.13",
+    pages = "148--159",
+    abstract = "In this paper we evaluate the utility of large language models (LLMs) for translation of text with markup in which the most important and challenging aspect is to correctly transfer markup tags while ensuring that the content, both, inside and outside tags is correctly translated. While LLMs have been shown to be effective for plain text translation, their effectiveness for structured document translation is not well understood. To this end, we experiment with BLOOM and BLOOMZ, which are open-source multilingual LLMs, using zero, one and few-shot prompting, and compare with a domain-specific in-house NMT system using a detag-and-project approach for markup tags. We observe that LLMs with in-context learning exhibit poorer translation quality compared to the domain-specific NMT system, however, they are effective in transferring markup tags, especially the large BLOOM model (176 billion parameters). This is further confirmed by our human evaluation which also reveals the types of errors of the different tag transfer techniques. While LLM-based approaches come with the risk of losing, hallucinating and corrupting tags, they excel at placing them correctly in the translation.",
+}
+
+@inproceedings{mao-etal-2023-variable,
+    title = "Variable-length Neural Interlingua Representations for Zero-shot Neural Machine Translation",
+    author = "Mao, Zhuoyuan  and
+      Song, Haiyue  and
+      Dabre, Raj  and
+      Chu, Chenhui  and
+      Kurohashi, Sadao",
+    editor = "Barreiro, Anabela  and
+      Silberztein, Max  and
+      Lloret, Elena  and
+      Paprzycki, Marcin",
+    booktitle = "Proceedings of the 1st International Workshop on Multilingual, Multimodal and Multitask Language Generation",
+    month = jun,
+    year = "2023",
+    address = "Tampere, Finland",
+    publisher = "European Association for Machine Translation",
+    url = "https://aclanthology.org/2023.multi3generation-1.3",
+    pages = "16--25",
+}
+
+@inproceedings{song-etal-2022-bertseg,
+    title = "{BERTS}eg: {BERT} Based Unsupervised Subword Segmentation for Neural Machine Translation",
+    author = "Song, Haiyue  and
+      Dabre, Raj  and
+      Mao, Zhuoyuan  and
+      Chu, Chenhui  and
+      Kurohashi, Sadao",
+    editor = "He, Yulan  and
+      Ji, Heng  and
+      Li, Sujian  and
+      Liu, Yang  and
+      Chang, Chua-Hui",
+    booktitle = "Proceedings of the 2nd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 12th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
+    month = nov,
+    year = "2022",
+    address = "Online only",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.aacl-short.12",
+    pages = "85--94",
+    abstract = "Existing subword segmenters are either 1) frequency-based without semantics information or 2) neural-based but trained on parallel corpora. To address this, we present BERTSeg, an unsupervised neural subword segmenter for neural machine translation, which utilizes the contextualized semantic embeddings of words from characterBERT and maximizes the generation probability of subword segmentations. Furthermore, we propose a generation probability-based regularization method that enables BERTSeg to produce multiple segmentations for one word to improve the robustness of neural machine translation. Experimental results show that BERTSeg with regularization achieves up to 8 BLEU points improvement in 9 translation directions on ALT, IWSLT15 Vi-{\textgreater}En, WMT16 Ro-{\textgreater}En, and WMT15 Fi-{\textgreater}En datasets compared with BPE. In addition, BERTSeg is efficient, needing up to 5 minutes for training.",
+}
+
+@inproceedings{chakrabarty-etal-2022-featurebart,
+    title = "{F}eature{BART}: Feature Based Sequence-to-Sequence Pre-Training for Low-Resource {NMT}",
+    author = "Chakrabarty, Abhisek  and
+      Dabre, Raj  and
+      Ding, Chenchen  and
+      Tanaka, Hideki  and
+      Utiyama, Masao  and
+      Sumita, Eiichiro",
+    editor = "Calzolari, Nicoletta  and
+      Huang, Chu-Ren  and
+      Kim, Hansaem  and
+      Pustejovsky, James  and
+      Wanner, Leo  and
+      Choi, Key-Sun  and
+      Ryu, Pum-Mo  and
+      Chen, Hsin-Hsi  and
+      Donatelli, Lucia  and
+      Ji, Heng  and
+      Kurohashi, Sadao  and
+      Paggio, Patrizia  and
+      Xue, Nianwen  and
+      Kim, Seokhwan  and
+      Hahm, Younggyun  and
+      He, Zhong  and
+      Lee, Tony Kyungil  and
+      Santus, Enrico  and
+      Bond, Francis  and
+      Na, Seung-Hoon",
+    booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2022.coling-1.443",
+    pages = "5014--5020",
+    abstract = "In this paper we present FeatureBART, a linguistically motivated sequence-to-sequence monolingual pre-training strategy in which syntactic features such as lemma, part-of-speech and dependency labels are incorporated into the span prediction based pre-training framework (BART). These automatically extracted features are incorporated via approaches such as concatenation and relevance mechanisms, among which the latter is known to be better than the former. When used for low-resource NMT as a downstream task, we show that these feature based models give large improvements in bilingual settings and modest ones in multilingual settings over their counterparts that do not use features.",
+}
+
+@inproceedings{dabre-2022-nict,
+    title = "{NICT} at {M}ix{MT} 2022: Synthetic Code-Mixed Pre-training and Multi-way Fine-tuning for {H}inglish{--}{E}nglish Translation",
+    author = "Dabre, Raj",
+    editor = {Koehn, Philipp  and
+      Barrault, Lo{\"\i}c  and
+      Bojar, Ond{\v{r}}ej  and
+      Bougares, Fethi  and
+      Chatterjee, Rajen  and
+      Costa-juss{\`a}, Marta R.  and
+      Federmann, Christian  and
+      Fishel, Mark  and
+      Fraser, Alexander  and
+      Freitag, Markus  and
+      Graham, Yvette  and
+      Grundkiewicz, Roman  and
+      Guzman, Paco  and
+      Haddow, Barry  and
+      Huck, Matthias  and
+      Jimeno Yepes, Antonio  and
+      Kocmi, Tom  and
+      Martins, Andr{\'e}  and
+      Morishita, Makoto  and
+      Monz, Christof  and
+      Nagata, Masaaki  and
+      Nakazawa, Toshiaki  and
+      Negri, Matteo  and
+      N{\'e}v{\'e}ol, Aur{\'e}lie  and
+      Neves, Mariana  and
+      Popel, Martin  and
+      Turchi, Marco  and
+      Zampieri, Marcos},
+    booktitle = "Proceedings of the Seventh Conference on Machine Translation (WMT)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wmt-1.111",
+    pages = "1122--1125",
+    abstract = "In this paper, we describe our submission to the Code-mixed Machine Translation (MixMT) shared task. In MixMT, the objective is to translate Hinglish to English and vice versa. For our submissions, we focused on code-mixed pre-training and multi-way fine-tuning. Our submissions achieved rank 4 in terms of automatic evaluation score. For Hinglish to English translation, our submission achieved rank 4 as well.",
+}
+
+@inproceedings{kumar-etal-2022-indicnlg,
+    title = "{I}ndic{NLG} Benchmark: Multilingual Datasets for Diverse {NLG} Tasks in {I}ndic Languages",
+    author = "Kumar, Aman  and
+      Shrotriya, Himani  and
+      Sahu, Prachi  and
+      Mishra, Amogh  and
+      Dabre, Raj  and
+      Puduppully, Ratish  and
+      Kunchukuttan, Anoop  and
+      Khapra, Mitesh M.  and
+      Kumar, Pratyush",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.360",
+    doi = "10.18653/v1/2022.emnlp-main.360",
+    pages = "5363--5394",
+    abstract = "Natural Language Generation (NLG) for non-English languages is hampered by the scarcity of datasets in these languages. We present the IndicNLG Benchmark, a collection of datasets for benchmarking NLG for 11 Indic languages. We focus on five diverse tasks, namely, biography generation using Wikipedia infoboxes, news headline generation, sentence summarization, paraphrase generation and, question generation. We describe the created datasets and use them to benchmark the performance of several monolingual and multilingual baselines that leverage pre-trained sequence-to-sequence models. Our results exhibit the strong performance of multilingual language-specific pre-trained models, and the utility of models trained on our dataset for other related NLG tasks. Our dataset creation methods can be easily applied to modest-resource languages as they involve simple steps such as scraping news articles and Wikipedia infoboxes, light cleaning, and pivoting through machine translation data. To the best of our knowledge, the IndicNLG Benchmark is the first NLG benchmark for Indic languages and the most diverse multilingual NLG dataset, with approximately 8M examples across 5 tasks and 11 languages. The datasets and models will be publicly available.",
+}
+
+@inproceedings{nakazawa-etal-2022-overview,
+    title = "Overview of the 9th Workshop on {A}sian Translation",
+    author = "Nakazawa, Toshiaki  and
+      Mino, Hideya  and
+      Goto, Isao  and
+      Dabre, Raj  and
+      Higashiyama, Shohei  and
+      Parida, Shantipriya  and
+      Kunchukuttan, Anoop  and
+      Morishita, Makoto  and
+      Bojar, Ond{\v{r}}ej  and
+      Chu, Chenhui  and
+      Eriguchi, Akiko  and
+      Abe, Kaori  and
+      Oda, Yusuke  and
+      Kurohashi, Sadao",
+    booktitle = "Proceedings of the 9th Workshop on Asian Translation",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Conference on Computational Linguistics",
+    url = "https://aclanthology.org/2022.wat-1.1",
+    pages = "1--36",
+    abstract = "This paper presents the results of the shared tasks from the 9th workshop on Asian translation (WAT2022). For the WAT2022, 8 teams submitted their translation results for the human evaluation. We also accepted 4 research papers. About 300 translation results were submitted to the automatic evaluation server, and selected submissions were manually evaluated.",
+}
+
+@inproceedings{dabre-2022-nicts,
+    title = "{NICT}{'}s Submission to the {WAT} 2022 Structured Document Translation Task",
+    author = "Dabre, Raj",
+    booktitle = "Proceedings of the 9th Workshop on Asian Translation",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Conference on Computational Linguistics",
+    url = "https://aclanthology.org/2022.wat-1.6",
+    pages = "64--67",
+    abstract = "We present our submission to the structured document translation task organized by WAT 2022. In structured document translation, the key challenge is the handling of inline tags, which annotate text. Specifically, the text that is annotated by tags, should be translated in such a way that in the translation should contain the tags annotating the translation. This challenge is further compounded by the lack of training data containing sentence pairs with inline XML tag annotated content. However, to our surprise, we find that existing multilingual NMT systems are able to handle the translation of text annotated with XML tags without any explicit training on data containing said tags. Specifically, massively multilingual translation models like M2M-100 perform well despite not being explicitly trained to handle structured content. This direct translation approach is often either as good as if not better than the traditional approach of {``}remove tag, translate and re-inject tag{''} also known as the {``}detag-and-project{''} approach.",
+}
+
+@inproceedings{dabre-etal-2022-indicbart,
+    title = "{I}ndic{BART}: A Pre-trained Model for Indic Natural Language Generation",
+    author = "Dabre, Raj  and
+      Shrotriya, Himani  and
+      Kunchukuttan, Anoop  and
+      Puduppully, Ratish  and
+      Khapra, Mitesh  and
+      Kumar, Pratyush",
+    editor = "Muresan, Smaranda  and
+      Nakov, Preslav  and
+      Villavicencio, Aline",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2022",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-acl.145",
+    doi = "10.18653/v1/2022.findings-acl.145",
+    pages = "1849--1863",
+    abstract = "In this paper, we study pre-trained sequence-to-sequence models for a group of related languages, with a focus on Indic languages. We present IndicBART, a multilingual, sequence-to-sequence pre-trained model focusing on 11 Indic languages and English. IndicBART utilizes the orthographic similarity between Indic scripts to improve transfer learning between similar Indic languages. We evaluate IndicBART on two NLG tasks: Neural Machine Translation (NMT) and extreme summarization. Our experiments on NMT and extreme summarization show that a model specific to related languages like IndicBART is competitive with large pre-trained models like mBART50 despite being significantly smaller. It also performs well on very low-resource translation scenarios where languages are not included in pre-training or fine-tuning. Script sharing, multilingual training, and better utilization of limited model capacity contribute to the good performance of the compact IndicBART model.",
+}
+
+@inproceedings{mao-etal-2022-contrastive,
+    title = "When do Contrastive Word Alignments Improve Many-to-many Neural Machine Translation?",
+    author = "Mao, Zhuoyuan  and
+      Chu, Chenhui  and
+      Dabre, Raj  and
+      Song, Haiyue  and
+      Wan, Zhen  and
+      Kurohashi, Sadao",
+    editor = "Carpuat, Marine  and
+      de Marneffe, Marie-Catherine  and
+      Meza Ruiz, Ivan Vladimir",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-naacl.134",
+    doi = "10.18653/v1/2022.findings-naacl.134",
+    pages = "1766--1775",
+    abstract = "Word alignment has proven to benefit many-to-many neural machine translation (NMT). However, high-quality ground-truth bilingual dictionaries were used for pre-editing in previous methods, which are unavailable for most language pairs. Meanwhile, the contrastive objective can implicitly utilize automatically learned word alignment, which has not been explored in many-to-many NMT. This work proposes a word-level contrastive objective to leverage word alignments for many-to-many NMT. Empirical results show that this leads to 0.8 BLEU gains for several language pairs. Analyses reveal that in many-to-many NMT, the encoder{'}s sentence retrieval performance highly correlates with the translation quality, which explains when the proposed method impacts translation. This motivates future exploration for many-to-many NMT to improve the encoder{'}s sentence retrieval performance.",
+}
+
+@inproceedings{dabre-sukhoo-2022-kreolmorisienmt,
+    title = "{K}reol{M}orisien{MT}: A Dataset for Mauritian Creole Machine Translation",
+    author = "Dabre, Raj  and
+      Sukhoo, Aneerav",
+    editor = "He, Yulan  and
+      Ji, Heng  and
+      Li, Sujian  and
+      Liu, Yang  and
+      Chang, Chua-Hui",
+    booktitle = "Findings of the Association for Computational Linguistics: AACL-IJCNLP 2022",
+    month = nov,
+    year = "2022",
+    address = "Online only",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-aacl.3",
+    pages = "22--29",
+    abstract = "In this paper, we describe KreolMorisienMT, a dataset for benchmarking machine translation quality of Mauritian Creole. Mauritian Creole (Kreol Morisien) is a French-based creole and a lingua franca of the Republic of Mauritius. KreolMorisienMT consists of a parallel corpus between English and Kreol Morisien, French and Kreol Morisien and a monolingual corpus for Kreol Morisien. We first give an overview of Kreol Morisien and then describe the steps taken to create the corpora. Thereafter, we benchmark Kreol Morisien ↔ English and Kreol Morisien ↔ French models leveraging pre-trained models and multilingual transfer learning. Human evaluation reveals our systems{'} high translation quality.",
+}
+
+@inproceedings{buschbeck-etal-2022-multilingual,
+    title = "A Multilingual Multiway Evaluation Data Set for Structured Document Translation of {A}sian Languages",
+    author = "Buschbeck, Bianka  and
+      Dabre, Raj  and
+      Exel, Miriam  and
+      Huck, Matthias  and
+      Huy, Patrick  and
+      Rubino, Raphael  and
+      Tanaka, Hideki",
+    editor = "He, Yulan  and
+      Ji, Heng  and
+      Li, Sujian  and
+      Liu, Yang  and
+      Chang, Chua-Hui",
+    booktitle = "Findings of the Association for Computational Linguistics: AACL-IJCNLP 2022",
+    month = nov,
+    year = "2022",
+    address = "Online only",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-aacl.23",
+    pages = "237--245",
+    abstract = "Translation of structured content is an important application of machine translation, but the scarcity of evaluation data sets, especially for Asian languages, limits progress. In this paper we present a novel multilingual multiway evaluation data set for the translation of structured documents of the Asian languages Japanese, Korean and Chinese. We describe the data set, its creation process and important characteristics, followed by establishing and evaluating baselines using the direct translation as well as detag-project approaches. Our data set is well suited for multilingual evaluation, and it contains richer annotation tag sets than existing data sets. Our results show that massively multilingual translation models like M2M-100 and mBART-50 perform surprisingly well despite not being explicitly trained to handle structured content. The data set described in this paper and used in our experiments is released publicly.",
+}
