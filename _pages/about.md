@@ -2,7 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span class="font-weight-bold">AI Resident</span> @ <a href="https://ai4bharat.org/" target="_blank">AI4Bharat (IIT Madras)</a> • <span class="font-weight-bold">Previously:</span> <a href="https://ucsd.edu/" target="_blank">UCSD</a> / <a href="https://www.tcs.com/" target="_blank">TCS</a> / <a href="https://stratzy.in/" target="_blank">Stratzy</a>
+subtitle: <span class="font-weight-bold">Researcher</span> @ <a href="[https://ai4bharat.org/](https://astrec.nict.go.jp/en/)" target="_blank">NICT, Japan</a> 
+<span class="font-weight-bold">Adjunct Faculty</span> @ <a href="https://ai4bharat.org/" target="_blank">IIT Madras (AI4Bharat)</a> • 
+
+<!--<span class="font-weight-bold">Previously:</span> <a href="https://ucsd.edu/" target="_blank">UCSD</a> / <a href="https://www.tcs.com/" target="_blank">TCS</a> / <a href="https://stratzy.in/" target="_blank">Stratzy</a>-->
 
 profile:
   align: right
