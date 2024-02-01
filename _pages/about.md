@@ -37,6 +37,6 @@ In NICT, I focus on low-resource Machine Translation (MT) and Natural Language G
 
 - **December** - My co-authors will present our papers on [DecoMT](https://aclanthology.org/2023.emnlp-main.279/) and [CTQ-Scorer](https://aclanthology.org/2023.findings-emnlp.519/) in [EMNLP 2023](https://2023.emnlp.org/).
 - **November** - [IndicTrans2](https://openreview.net/forum?id=vfT4YuzAYA) submission has been accepted at TMLR.
-- **November** - Presenting our Tutorial on [Developing SOTA MNMT Systems for Related Languages](http://www.afnlp.org/conferences/ijcnlp2023/wp/program/accepted-tutorials/) at Tutorial at AACL-IJCNLP 2023.
+- **November** - Presenting our Tutorial on [Developing SOTA MNMT Systems for Related Languages](http://www.afnlp.org/conferences/ijcnlp2023/wp/program/accepted-tutorials/) and our Demo on [Whisper-Streaming](https://github.com/ufal/whisper_streaming) at AACL-IJCNLP 2023.
 - **October** - Presenting our pre-print on [Creoles NLP and NLG](https://arxiv.org/abs/2310.19567)!
 - **July** - Presenting 5 papers at [ACL 2023](https://2023.aclweb.org/).
