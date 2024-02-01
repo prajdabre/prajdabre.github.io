@@ -1,11 +1,14 @@
 ---
 layout: page
-title: talks (need to do this more!)
+title: talks
 permalink: /talks/
 description: ''
 nav: true
 nav_order: 2
 ---
+
+### 2024
+- In progress
 
 ### 2023
 
