@@ -24,6 +24,8 @@ I completed my Ph.D. in Informatics from Kyoto University, Japan under the super
 
 In NICT, I focus on low-resource Machine Translation (MT) and Natural Language Generation (NLG), while working with an awesome team of international researchers. I also collaborate with Dr [Sheng Li](https://halspeech.github.io/) of the [Speech Lab in NICT](https://ast-astrec.nict.go.jp/en/). At AI4Bharat and CFILT, I am mainly involved in mentoring students on their research focusing on MT and Evaluation, NLG and, more recently, pragmatics and model robustness. Now that I am an adjunct faculty I hope to offer a course or two on Generative AI someday soon. I am one of the co-creators of [IndicBART](https://github.com/AI4Bharat/indic-bart), [IndicTrans2](https://github.com/AI4Bharat/IndicTrans2), [Airavata](https://ai4bharat.github.io/airavata/), [YANMTT](https://github.com/prajdabre/yanmtt) and [Whisper-Streaming](https://github.com/ufal/whisper_streaming). I also have a (Japanese) patent on [flexible decoding of generative models](https://patents.google.com/patent/JP7297286B2/ja).
 
+I love astronomy, reading books (history, sci-fi and evolution), video games (Steam Deck and Nintendo Switch) and I am a big time anime and manga fan. I speak English, Hindi, Marathi and Japanese.
+
 <hr>
 
 <h2 style="color:#003BDE; margin-bottom:0.5em">News</h2>
