@@ -39,4 +39,4 @@ In NICT, I focus on low-resource Machine Translation (MT) and Natural Language G
 - **November** - [IndicTrans2](https://openreview.net/forum?id=vfT4YuzAYA) submission has been accepted at TMLR.
 - **November** - Presenting our Tutorial on [Developing SOTA MNMT Systems for Related Languages](http://www.afnlp.org/conferences/ijcnlp2023/wp/program/accepted-tutorials/) at Tutorial at AACL-IJCNLP 2023.
 - **October** - Presenting our pre-print on [Creoles NLP and NLG](https://arxiv.org/abs/2310.19567)!
-- **May** - Presenting 5 papers at [ACL 2023](https://2023.aclweb.org/).
+- **July** - Presenting 5 papers at [ACL 2023](https://2023.aclweb.org/).
