@@ -7,7 +7,7 @@ subtitle: <span class="font-weight-bold">Researcher</span> @ <a href="https://as
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
 
@@ -16,13 +16,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hey, thanks for stopping by! 👋
+I sense a soul in search of an answer!  
 
-I am an AI Resident at [AI4Bharat (IIT Madras)](https://ai4bharat.org/) under the supervision of [Prof. Mitesh Khapra](http://www.cse.iitm.ac.in/~miteshk/), [Dr. Anoop Kunchukuttan](http://anoopk.in/) and [Dr. Raj Dabre](https://scholar.google.co.in/citations?hl=en&user=x91u618AAAAJ&view_op=list_works&sortby=pubdate). I work on building open-source datasets and models for Indian languages. I am broadly interested in the areas of multimodal and multilingual learning, specifically in the context of data-efficient learning, training dynamics, reasoning and generalization.
+I am a Researcher at [National Institute of Information and Communications Technology (NICT)](https://astrec.nict.go.jp/en/) and an Adjunct Faculty in IIT Madras, primarily working with Prof Mitesh Khapra and Dr Anoop Kunchukuttan of [AI4Bharat](https://ai4bharat.org/). I am also a visiting researcher at [CFILT](https://www.cfilt.iitb.ac.in/). I work on efficient multilingual understanding and generation for low-resource languages, especially Indic and Creole languages.
 
-I am also collaborating with [Dr. Zeerak Talat](https://zeerak.org/) on hate speech detection using federated learning. Before that, I was a research intern at [University of California San Diego](https://ucsd.edu/) under the supervision of [Prof. Pengtao Xie](https://pengtaoxie.github.io/), where I worked on neural architecture search and generative models.
-
-I completed my Bachelor’s degree in Computer Engineering from [University of Mumbai](https://www.djsce.ac.in/), India. In the past, I was a machine learning intern at [Tata Consultancy Services](https://www.tcs.com/) where I worked on understanding customer behavior using natural language processing. Before that, I collaborated with Prof. Pratik Kanani on an industry project focusing on anomaly detection in heart rate (pulse) using IoT and machine learning.
+I completed my Ph.D. in Informatics from Kyoto University under the supervision of Prof. Sadao Kurohashi (curr) Bachelor’s degree in Computer Engineering from [University of Mumbai](https://www.sfit.ac.in/), India. In the past, I was a machine learning intern at [Tata Consultancy Services](https://www.tcs.com/) where I worked on understanding customer behavior using natural language processing. Before that, I collaborated with Prof. Pratik Kanani on an industry project focusing on anomaly detection in heart rate (pulse) using IoT and machine learning.
 
 I also served as a mentor at [DJ Unicode](https://www.djunicode.in/), a student organization that aims to inspire sophomores and juniors to contribute to open-source projects. Additionally, I led a team that developed a platform for conducting C programming examinations in college for over 500 students ([demo](https://www.youtube.com/watch?v=kn7lwJoYfuU)).
 
