@@ -5,7 +5,6 @@ permalink: /
 subtitle: <span class="font-weight-bold">Researcher</span> @ <a href="https://astrec.nict.go.jp/en/" target="_blank">NICT, Japan</a> 
 <span class="font-weight-bold">Adjunct Faculty</span> @ <a href="https://ai4bharat.org/" target="_blank">IIT Madras (AI4Bharat)</a> 1
 
-<!--<span class="font-weight-bold">Previously:</span> <a href="https://ucsd.edu/" target="_blank">UCSD</a> / <a href="https://www.tcs.com/" target="_blank">TCS</a> / <a href="https://stratzy.in/" target="_blank">Stratzy</a>-->
 
 profile:
   align: right
