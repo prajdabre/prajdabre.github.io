@@ -1,6 +1,6 @@
 ---
 layout: page
-title: talks/teaching
+title: talks
 permalink: /talks/
 description: ''
 nav: true
