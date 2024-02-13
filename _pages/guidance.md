@@ -4,7 +4,7 @@ title: guidance
 permalink: /guidance/
 description: ''
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 I am thankful and grateful to a lot of students who consider me worthy of mentoring them.
