@@ -33,6 +33,7 @@ I love astronomy, reading books (history, sci-fi and evolution), video games (St
 <h2 style="color:#003BDE; margin-bottom:0.5em">News</h2>
 
 ##### 2024
+- **March** - Announcing pre-prints on [IndicLLMSuite](https://arxiv.org/abs/2403.06350) and [Translationese data for LM Pre-training](https://arxiv.org/abs/2403.13638).
 - **March** - Our paper on Creole Machine Translation has been accepted to NAACL 2024.
 - **January** - Happy to announce that I have been appointed as an Adjunct Faculty in the Computer Science department of IIT Madras.
 - **January** - Excited to announce the release of Airavata, an instruction-tuned Hindi LLM. Check out the [Blog](https://ai4bharat.github.io/airavata) and [Code](https://github.com/AI4Bharat/IndicInstruct).
