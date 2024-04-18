@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 
 I sense a soul in search of an answer!  
 
-I am a Researcher at [National Institute of Information and Communications Technology (NICT)](https://astrec.nict.go.jp/en/), under the direction of [Masao Utiyama](https://att-astrec.nict.go.jp/member/mutiyama/index.html), and an Adjunct Faculty in IIT Madras, working alongside [Prof Mitesh Khapra](http://www.cse.iitm.ac.in/~miteshk/) and [Dr Anoop Kunchukuttan](http://anoopk.in/) of [AI4Bharat](https://ai4bharat.org/). I am also a visiting researcher at [CFILT](https://www.cfilt.iitb.ac.in/) which is headed by [Prof. Pushpak Bhattacharyya](https://www.cse.iitb.ac.in/~pb/). I work on efficient multilingual understanding and generation for low-resource languages, especially Indic and, more recently, Creole languages.
+I am a Researcher at [National Institute of Information and Communications Technology (NICT)](https://astrec.nict.go.jp/en/), under the direction of [Masao Utiyama](https://att-astrec.nict.go.jp/member/mutiyama/index.html), an Adjunct Faculty in IIT Madras, working alongside [Prof Mitesh Khapra](http://www.cse.iitm.ac.in/~miteshk/) and [Dr Anoop Kunchukuttan](http://anoopk.in/) of [AI4Bharat](https://ai4bharat.org/), and an incoming visiting Assistant Professor in IIT Bombay working alongside [Prof. Pushpak Bhattacharyya](https://www.cse.iitb.ac.in/~pb/). I work on efficient multilingual understanding and generation for low-resource languages, especially Indic and, more recently, Creole languages.
 
 I completed my Ph.D. in Informatics from Kyoto University, Japan under the supervision of [Prof. Sadao Kurohashi](https://www.nii.ac.jp/en/faculty/director/) (currently director general of NII, Japan), M.Tech. in Computer Science from IIT Bombay, India under the supervision of [Prof. Pushpak Bhattacharyya](https://www.cse.iitb.ac.in/~pb/) (ex-director of IIT Patna) and Bachelor’s degree in Computer Engineering from [University of Mumbai](https://www.sfit.ac.in/), India. In the past, I was an intern at Google, Japan in the Rosetta team (Google Translate) headed by [Dr. Hideto Kazawa](https://research.google/people/hideto-kazawa/).
 
@@ -33,6 +33,8 @@ I love astronomy, reading books (history, sci-fi and evolution), video games (St
 <h2 style="color:#003BDE; margin-bottom:0.5em">News</h2>
 
 ##### 2024
+- **April** - My appointment to IIT Bombay as a Visiting Assistant Professor was approved.
+- **April** - Our paper [CreoleVal](https://arxiv.org/abs/2310.19567) got accepted to TACL.
 - **March** - Announcing pre-prints on [IndicLLMSuite](https://arxiv.org/abs/2403.06350) and [Translationese data for LM Pre-training](https://arxiv.org/abs/2403.13638).
 - **March** - Our paper on Creole Machine Translation has been accepted to NAACL 2024.
 - **January** - Happy to announce that I have been appointed as an Adjunct Faculty in the Computer Science department of IIT Madras.
@@ -44,5 +46,5 @@ I love astronomy, reading books (history, sci-fi and evolution), video games (St
 - **December** - My co-authors will present our papers on [DecoMT](https://aclanthology.org/2023.emnlp-main.279/) and [CTQ-Scorer](https://aclanthology.org/2023.findings-emnlp.519/) in [EMNLP 2023](https://2023.emnlp.org/).
 - **November** - [IndicTrans2](https://openreview.net/forum?id=vfT4YuzAYA) submission has been accepted at TMLR.
 - **November** - Presenting our Tutorial on [Developing SOTA MNMT Systems for Related Languages](http://www.afnlp.org/conferences/ijcnlp2023/wp/program/accepted-tutorials/) and our Demo on [Whisper-Streaming](https://github.com/ufal/whisper_streaming) at AACL-IJCNLP 2023.
-- **October** - Presenting our pre-print on [Creoles NLP and NLG](https://arxiv.org/abs/2310.19567)!
+- **October** - Presenting our pre-print on [Creoles NLP and NLG](https://arxiv.org/abs/2310.19567).
 - **July** - Presenting 5 papers at [ACL 2023](https://2023.aclweb.org/).
