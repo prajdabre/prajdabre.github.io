@@ -33,6 +33,8 @@ I love astronomy, reading books (history, sci-fi and evolution), video games (St
 <h2 style="color:#003BDE; margin-bottom:0.5em">News</h2>
 
 ##### 2024
+- **April** - Our tutorial proposal on "Linguistically Motivated Neural Machine Translation" is accepted to EAMT 2024.
+- **April** - Our paper on subword centric decoding of subword regularized models is accepted to EAMT 2024.
 - **April** - My appointment to IIT Bombay as a Visiting Assistant Professor was approved.
 - **April** - Our paper [CreoleVal](https://arxiv.org/abs/2310.19567) got accepted to TACL.
 - **March** - Announcing pre-prints on [IndicLLMSuite](https://arxiv.org/abs/2403.06350) and [Translationese data for LM Pre-training](https://arxiv.org/abs/2403.13638).
