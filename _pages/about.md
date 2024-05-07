@@ -33,6 +33,7 @@ I love astronomy, reading books (history, sci-fi and evolution), video games (St
 <h2 style="color:#003BDE; margin-bottom:0.5em">News</h2>
 
 ##### 2024
+- **May** - I received an outstanding performance award in NICT for my role in developing IndicTrans2 which helps translation beteeen Indic and Japanese.
 - **April** - Our tutorial proposal on "Linguistically Motivated Neural Machine Translation" is accepted to EAMT 2024.
 - **April** - Our paper on subword centric decoding of subword regularized models is accepted to EAMT 2024.
 - **April** - My appointment to IIT Bombay as a Visiting Assistant Professor was approved.
