@@ -33,6 +33,7 @@ I love astronomy, reading books (history, sci-fi and evolution), video games (St
 <h2 style="color:#003BDE; margin-bottom:0.5em">News</h2>
 
 ##### 2024
+- **May** - I gave a talk on "Advances in Indic NLG" in Microsoft Research, India.
 - **May** - 5 co-authored papers accepted to ACL 2024. See you in Thailand.
 - **May** - My co-workers and I received a best paper award from AfricaNLP at ICLR 2024 for our work on the [NGLUENI](https://aclanthology.org/2024.lrec-main.1071/) benchmark and models.
 - **May** - I received an outstanding performance award in NICT for my role in developing IndicTrans2 which helps translation beteeen Indic and Japanese.
