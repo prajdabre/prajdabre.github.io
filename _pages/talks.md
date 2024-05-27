@@ -8,7 +8,7 @@ nav_order: 2
 ---
 
 ### 2024
-- In progress
+- Invited talk titled ``[Addressing the Data and Modeling Challenges in NLG for Indian Languages](https://docs.google.com/presentation/d/1ER49JFjNR0Oz87qmnMW_Z0647fiOFZbY1Wxy9I7rOC8/edit)'' in MSR, India.
 
 ### 2023
 
