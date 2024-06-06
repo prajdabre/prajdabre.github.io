@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <span class="font-weight-bold">Researcher</span> @ <a href="https://astrec.nict.go.jp/en/" target="_blank">NICT, Japan</a> • <span class="font-weight-bold">Adjunct Faculty</span> @ <a href="https://ai4bharat.org/" target="_blank">IIT Madras (AI4Bharat)</a> • <span class="font-weight-bold">Incoming Visiting Assistant Professor</span> @ <a href="https://www.cfilt.iitb.ac.in/" target="_blank">IIT Bombay (CFILT)</a>
+subtitle: <span class="font-weight-bold">Researcher</span> @ <a href="https://astrec.nict.go.jp/en/" target="_blank">NICT, Japan</a> • <span class="font-weight-bold">Adjunct Faculty</span> @ <a href="https://ai4bharat.org/" target="_blank">IIT Madras (AI4Bharat)</a> • <span class="font-weight-bold">Honorary Visiting Assistant Professor</span> @ <a href="https://www.cfilt.iitb.ac.in/" target="_blank">IIT Bombay (CFILT)</a>
 
 
 profile:
