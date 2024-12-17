@@ -33,7 +33,16 @@ I love astronomy, reading books (history, sci-fi and evolution), video games (St
 <h2 style="color:#003BDE; margin-bottom:0.5em">News</h2>
 
 ##### 2024
-- **May** - Invited talk titled ``[Addressing the Data and Modeling Challenges in NLG for Indian Languages](https://docs.google.com/presentation/d/1ER49JFjNR0Oz87qmnMW_Z0647fiOFZbY1Wxy9I7rOC8/edit)''.
+- **November** - Preprints of [BhasaAnuvaad](https://arxiv.org/abs/2411.04699), a speech translation dataset, and [Pralekha](https://arxiv.org/abs/2411.19096), a parallel document evaluation dataset are public.
+- **November** - My paper on [Kadodi](https://aclanthology.org/2024.wat-1.3/), my native dialect of Marathi, which I co-authored with my mom got a best paper award in WAT.
+- **October** - [CIA](https://arxiv.org/abs/2410.13394) has been spotted evaluating your LLM outputs with English references.
+- **October** - From CVQA to [WorldCuisines](https://arxiv.org/abs/2410.12705). VQA for food.
+- **September** - Our paper on [CVQA](https://arxiv.org/abs/2406.05967) got accepted to NeurIPS 2024.
+- **September** - Invited talk titled [Advances in Multilingual Machine Translation and Evaluation for Indian Languages](https://docs.google.com/presentation/d/11XcqgpZy_7u0nsEfyFxTwVeGA8CsDKgrLbOCybFgyLY/edit?usp=sharing).
+- **August** - Paper on [Inline tag transfer for MT](https://aclanthology.org/2024.amta-research.8/) accepted to AMTA 2024.
+- **August** - We got an outstanding paper award and an area chair award at ACL 2024.
+- **August** - 5 papers accepted to EMNLP/WAT/CoNLL/MRL 2024.
+- **May** - Invited talk titled [Addressing the Data and Modeling Challenges in NLG for Indian Languages](https://docs.google.com/presentation/d/1ER49JFjNR0Oz87qmnMW_Z0647fiOFZbY1Wxy9I7rOC8/edit).
 - **May** - 5 co-authored papers accepted to ACL 2024. See you in Thailand.
 - **May** - My co-workers and I received a best paper award from AfricaNLP at ICLR 2024 for our work on the [NGLUENI](https://aclanthology.org/2024.lrec-main.1071/) benchmark and models.
 - **May** - I received an outstanding performance award in NICT for my role in developing IndicTrans2 which helps translation beteeen Indic and Japanese.
